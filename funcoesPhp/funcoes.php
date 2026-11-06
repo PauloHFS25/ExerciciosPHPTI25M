@@ -4,6 +4,7 @@
     Class Funcoes{
         private float $num1;
         private float $num2;
+        private float $num3;
         private float $resultado;
         
         //Criando um construtor = Instância as variáveis -> Cria as variáveis na memória do servidor
@@ -47,6 +48,16 @@
                 return $this->resultado;
             }
         }//fim do método dividir
+
+        public function dobroUmNumero(float $num1){
+            $this->resultado = $num1 * 2;
+            return $this->resultado;
+        }//fim do método dobro
+
+        public function mediaTresNumeros(float $num1, float $num2, float $num3){
+            $this->resultado = ($num1 + $num2 + $num3) / 3;
+            return $this->resultado;
+        }//fim do método dobro
 
         public function delta(int $a, int $b, int $c){
             $delta = pow($b,2)-4*$a*$c;

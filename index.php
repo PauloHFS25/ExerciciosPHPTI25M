@@ -15,5 +15,7 @@
     <button><a href="telas/multiplicar.php">Multiplicar</a></button><br>
     <button><a href="telas/dividir.php">Dividir</a></button><br>
     <button><a href="telas/bhaskara.php">Calcular Bhaskara</a></button><br>
+    <button><a href="telas/dobro.php">Dobro</a></button><br>
+    <button><a href="telas/media.php">Media</a></button><br>
 </body>
 </html>
