@@ -6,6 +6,8 @@
         private float $num2;
         private float $num3;
         private float $resultado;
+        private float $celsius;
+        private float $valor;
         
         //Criando um construtor = Instância as variáveis -> Cria as variáveis na memória do servidor
         public function __construct(){
@@ -57,7 +59,32 @@
         public function mediaTresNumeros(float $num1, float $num2, float $num3){
             $this->resultado = ($num1 + $num2 + $num3) / 3;
             return $this->resultado;
-        }//fim do método dobro
+        }//fim do método média Tres
+
+        public function raizQuadradaNumero(float $num1){
+            $this->resultado = sqrt($num1);
+            return $this->resultado;
+        }//fim do método raiz quadrada
+
+        public function metrosCovertaCentimetrosNumeros(float $num1){
+            $this->resultado = ($num1) * 100;
+            return $this->resultado;
+        }//fim do método Metros Coverta Centimetros
+
+        public function calcularAreaCirculo(float $num1){
+            $this->resultado = $num1 * pi();
+            return $this->resultado;
+        }//fim do método Calcular Área Circulo 
+
+        public function celsiusParaFahrenheit(float $num1){
+            $this->resultado = ($num1 * 1.8) + 32;
+            return $this->resultado;
+        }//fim do método Celsius Para Fahrenheit
+
+         public function desconto(float $num1){
+            $this->resultado = $num1 * 0.90;
+            return $this->resultado;
+        }//fim do método Metros Deconto
 
         public function delta(int $a, int $b, int $c){
             $delta = pow($b,2)-4*$a*$c;
