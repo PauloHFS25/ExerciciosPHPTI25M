@@ -25,7 +25,7 @@
             if(isset($_POST['valor'])){
                 $celsius = $_POST['valor'];
             
-                $resultado = $funcoes->desconto($valor);//Utilizando o método da classe Funcoes
+                $resultado = $funcoes->desconto($celsius);//Utilizando o método da classe Funcoes
             }
         ?>
         </button>

@@ -8,6 +8,7 @@
         private float $resultado;
         private float $celsius;
         private float $valor;
+        private float $anos;
         
         //Criando um construtor = Instância as variáveis -> Cria as variáveis na memória do servidor
         public function __construct(){
@@ -81,10 +82,28 @@
             return $this->resultado;
         }//fim do método Celsius Para Fahrenheit
 
-         public function desconto(float $num1){
+        public function desconto(float $num1){
             $this->resultado = $num1 * 0.90;
             return $this->resultado;
         }//fim do método Metros Deconto
+
+        public function idade(float $anos){
+            $this->resultado = $anos * 12;
+            return $this->resultado;
+        }//fim do método idade
+
+      public function parImpar(float $num){
+            if($num % 2 == 0){
+                return "Par";
+            }else{
+                return "Ímpar";
+            }
+       }//fim do par ou impar
+       
+       public function areaTriangulo(float $num1, float $num2){
+            $this->resultado = ($num1 * $num2) / 2;
+            return $this->resultado;
+        }//fim do Area ou Triangulo
 
         public function delta(int $a, int $b, int $c){
             $delta = pow($b,2)-4*$a*$c;

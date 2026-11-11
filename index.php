@@ -22,6 +22,10 @@
     <button><a href="telas/calculecirculo.php">Calcule Circulo</a></button><br>
     <button><a href="telas/celsiusparafahrenheit.php">Celsius para Fahrenheit</a></button><br>
     <button><a href="telas/desconto.php">Desconto</a></button><br>
+    <button><a href="telas/idade.php">Idade</a></button><br>
+    <button><a href="telas/parimpar.php">Par Impar</a></button><br>
+    <button><a href="telas/areatriangulo.php">Area Triangulo</a></button><br>
+
 
 </body>
 </html>
